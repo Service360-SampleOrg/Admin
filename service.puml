@@ -1,0 +1,23 @@
+' Admin
+@startuml
+
+actor Administrator
+
+node Admin {
+}
+
+node CustomerService {
+}
+
+node OrderService {
+}
+
+node CatalogService {
+}
+
+Administrator --> Admin
+Admin --> OrderService
+Admin --> CatalogService
+Admin --> CustomerService
+
+@enduml
