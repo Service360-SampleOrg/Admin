@@ -5,9 +5,13 @@ Administrative web-interface for our amazing Shop (tm)
 Consists of SPA Frontend application and also thin layer of backend
 responsible for server-side rendering and initial request routing.
 
-Owner|Tier|Status|Contexts
----|---|---|---
-FrontendTeam|Tier1|Prod|Web,Customers,Orders,Payments,Catalog
+##### Contexts
+
+- Web
+- Customers
+- Orders
+- Payments
+- Catalog
 
 ##### Environments
 
